@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .main-section {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    .coin-heart {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+}
+  
+  #gameOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 3px black;
+  }
+  
+  .instructions {
+    color: white;
+    position: fixed;
+    right: 1.2%;
+    top: 40%;
+    background: rgba(193, 188, 188, 0.785);
+    color: black;
+    width: 13%;
+    padding: 13px;
+    box-shadow: 0px 0px 10px 3px rgb(117, 118, 117);
+    border-radius: 23px;
+    hr { border: 1px solid black; }
+    
+  }
+
+  audio {
+    display: hidden;
+  }
+  
